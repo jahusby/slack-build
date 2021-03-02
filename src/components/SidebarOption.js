@@ -6,6 +6,7 @@ import { db } from "../firebase";
 
 function SidebarOption({ Icon, title, addChannelOption, id }) {
   const dispatch = useDispatch();
+
   const addChannel = () => {
     const channelName = prompt("Please enter the channel name");
 
